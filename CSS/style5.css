@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.top-nav {
+  display: block;
+  padding: 8px;
+  margin: 0px;
+  text-align: right;
+  background-color: #eac7ba;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 12px;
+}
+
+a:hover {
+  color: grey;
+  text-align: center;
+  border-bottom: 4px solid grey;
+}
+
+input[type=text] {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 0px;
+  padding: 8px;
+  width: 250px;
+  border: White;
+  background-color: grey;
+}
+
+::placeholder {
+  color: white;
+}
+
+aside {
+  width: 150px;
+  height: 1200px;
+  padding-left: 10px;
+  margin-left: 20px;
+  float: left;
+  color: grey;
+  border-right: 5px solid lightgrey;
+}
+
+.filter{
+  text-transform: uppercase;
+  padding: 8px;
+  color: white;
+  background-color: lightgrey;
+  font-size: 13px;
+  margin-right: 10px;
+  text-align: center;
+
+}
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: '\2714';
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  margin-right: 20px;
+  color: transparent;
+  background-color: #eac7ba;
+}
+
+input[type=checkbox]:checked + label:before {
+  color: white;
+}
+
+.checkbox {
+  display: block;
+  padding-bottom: 15px;
+}
+
+.menu-title{
+  text-transform: uppercase;
+  padding: 8px;
+  color: grey;
+  font-size: 13px;
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  margin-right: 10px;
+  text-align: center;
+}
+
+button{
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0px;
+    background-color: transparent;
+    color: grey;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 3px;
+    text-align: center;
+}
+.filter-button{
+  margin-top: 20px;
+  border: 2px solid #eac7ba;
+  margin-right: 10px;
+  text-align: center;
+
+}
+
+.products {
+  margin-left:150px;
+}
+
+.pic img {
+    width: 250px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+.pic {
+  width: 380px;
+  display: inline-block;
+  padding-left: 10px;
+  margin-left: 10px;
+  border-bottom: 4px solid #eac7ba;
+  text-align: center;
+}
+
+.chair-name {
+  font-size: 13px;
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-left: 10px;
+  color: grey;
+  text-align: center;
+  text-shadow: 3px;
+}
+
+.price{
+  font-size: 12px;
+  text-align: left;
+  margin-left: 10px;
+  color: grey;
+  text-align: center;
+}
