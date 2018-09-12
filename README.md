@@ -1,3 +1,3 @@
 # e-commerce
-e-commerce wesite excercise
+e-commerce website excercise
 
